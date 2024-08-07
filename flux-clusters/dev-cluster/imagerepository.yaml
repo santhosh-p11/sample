@@ -1,9 +1,0 @@
-apiVersion: image.toolkit.fluxcd.io/v1beta1
-kind: ImageRepository
-metadata:
-  name: my-registry
-  namespace: flux-system
-spec:
-  image: my-registry/my-image
-  interval: 1m
- 
